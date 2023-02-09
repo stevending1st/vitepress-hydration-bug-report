@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "jsx": "preserve",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "lib": ["ES2015", "ESNext", "DOM"],
+    "rootDir": ".",
+    "outDir": ".",
+    "skipLibCheck": true,
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["website", "vite-env.d.ts"],
+  "exclude": []
+}
