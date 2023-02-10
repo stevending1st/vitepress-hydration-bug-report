@@ -5,8 +5,6 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers';
 import Unocss from 'unocss/vite';
 import { presetUno, presetAttributify, presetIcons, presetMini } from 'unocss';
 
-import renderTemplateMarkdownPlugin from './.vitepress/plugin/renderTemplateMarkdown';
-
 export default {
   server: {
     hmr: {
@@ -18,7 +16,6 @@ export default {
   },
   ssr: { noExternal: ['element-plus'] },
   plugins: [
-    renderTemplateMarkdownPlugin(),
     Components({
       dirs: resolve(__dirname, '.vitepress/theme/components'),
       extensions: ['vue'],

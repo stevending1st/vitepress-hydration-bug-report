@@ -6,7 +6,7 @@
   "scripts": {
     "prepare": "husky install",
     "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx --fix",
-    "prettier": "prettier --write ./src",
+    "prettier": "prettier --write ./website",
     "test": "lint-staged  &&  npm run lint",
     "rm:dist": "rimraf dist ./website/.vitepress/dist",
     "dev": "vitepress dev website",
