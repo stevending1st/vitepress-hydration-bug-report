@@ -1,10 +1,7 @@
 export default {
   lang: 'en-US',
-  title: 'Poster Friendly',
-  description:
-    'A complete solution for GitHub (Gitee) Issue and Discussion templates.',
-
-  base: '/poster-friendly/',
+  title: 'vitepress hydration bug report',
+  description: 'vitepress-hydration-bug-report',
 
   lastUpdated: true,
   cleanUrls: true,
